@@ -1,0 +1,26 @@
+<!--pages/search/search.wxml-->
+<view class="beijing" style="background:url(../../image/beijing.jpg);background-size: cover;height:600px;width:100%;background-color:blue;position:relative;">
+  <view style="height:100rpx;width:100%;text-align:center;">
+    <form bindsubmit="showList" bindblur="clearLikethis">
+      <input type="text" name="userinput" placeholder="搜索音乐" value="{{search2}}" bindinput="somethingLikethis" class="input-sousuo"></input>
+      <button form-type="submit" bindtap="clearInputEvent" style="width:200rpx;height:80rpx;background-color:red;float:left;margin-left:-4rpx;margin-top:20px;">
+        <image src="../../image/sousuo(1).png" class="img-sousuo"></image>
+      </button>
+    </form>
+  </view>
+  <view wx:for="{{list}}" style="width:100%;margin-top:10px;text-align:center">
+    <view id="{{index}}" bindtap="choice" style="margin-left:23rpx;width:67%;height:50rpx;background-color:transparent;color:white;">
+      {{item}}
+    </view>
+  </view>
+  <view style="width:100%;margin-top:22px;color:white;font-size:17px;margin-left:23rpx;font-weight:bold;">历史记录:</view>
+  <view wx:for="{{search}}">
+    <view bindtap="gotoMusic" id="{{index}}" style="float:left;width:80%;height:40px;color:white;font-size:17px;line-height:40px;text-align:center;font-weight:bold">
+      {{item}}
+    </view>
+    <button id="{{index}}" bindtap="clearNav" style="float:left;width:50rpx;height:50rpx;background-color:transparent;">
+      <image src="../../image/chahao(1).png" class="img-chahao"></image>
+    </button>
+  </view>
+  <button bindtap="clearAll" style="position:absolute;top:500px;left:100px;color:white;background-color:transparent;">清空历史记录</button>
+</view>

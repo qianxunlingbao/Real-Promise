@@ -1,0 +1,4 @@
+<!--pages/use/use.wxml-->
+<view>
+    <myComponent id="myComponent"></myComponent>
+</view>
