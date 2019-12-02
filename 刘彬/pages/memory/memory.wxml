@@ -1,0 +1,15 @@
+<view class = "container1">
+  <view class = "additem">
+    <view class = "add">
+      <input value = "{{input}}" auto-focus  class = "InputAdd" placeholder='创建新的歌单' bindinput='AddInput' bindconfirm='AddConfirm'/>
+    </view>  
+  </view>
+  <view class = "todo-today1">
+    <view class = "todo-today">
+      <view class = "today-item" wx:for = "{{TodayList}}" wx:key="{{ index }}" bindtap="toggleTodoHandle" id = "{{index}}"   >
+        <text class = "{{item.completed ? 'itemdescriptiontcompleted':'itemdescriptiont'}}">{{item.description}}</text>
+        <icon class = 'itemremove' type = 'clear' size = '20' color = "white" bindtap="removeTodoHandle" id = '{{index}}' />
+      </view>
+    </view>
+  </view>
+</view>

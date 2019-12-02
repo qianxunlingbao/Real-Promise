@@ -1,0 +1,14 @@
+{
+  "pages": [  
+    "pages/memory/memory"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "新建歌单",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
