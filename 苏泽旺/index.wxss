@@ -1,0 +1,245 @@
+/**index.wxss**/
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.localMusic{
+  background-color:white;
+  font-size:12px;
+}
+
+.photo{
+  width:20px;
+  height:20px;
+  position:absolute;
+  left:20px;
+  top:6px;
+}
+
+.record{
+  margin-left:-145px;
+}
+
+.my{
+  width:160px;
+  height:30px;
+  background-color:red;
+  text-align:center;
+  line-height:30px;
+  font-size:13px;
+  display:inline-block;
+}
+
+.swiper-tab{
+    width: 100%;
+    text-align: center;
+    line-height: 80rpx;}
+.swiper-tab-list{  font-size: 30rpx;
+    display: inline-block;
+    width: 50%;
+    
+}
+.on{  background-color:red;
+}
+
+.swiper-box{ display: block; height: 100%; width: 100%; overflow: hidden; }
+.swiper-box view{
+    text-align: center;
+}
+
+.search{
+  background-color:rgb(233, 223, 223);
+}
+
+.searchPhoto{
+  width:12px;
+  height:12px;
+  position:absolute;
+  top:5px;
+  left:20px;
+}
+
+.voicePhoto{
+  width:12px;
+  height:12px;
+  position:absolute;
+  top:5px;
+  left:290px;
+}
+
+.underPhoto{
+  width:15px;
+  height:15px;
+  position:absolute;
+  left:15px;
+  margin-top:20px;
+}
+
+.createMusic{
+  font-size:12px;
+  position:absolute;
+  left:50px;
+  margin-top:19px;
+}
+
+.likeMusic{
+  font-size:12px;
+  position:absolute;
+  left:70px;
+  margin-top:45px;
+}
+
+.underPhoto1{
+  width:15px;
+  height:15px;
+  position:absolute;
+  left:15px;
+  margin-top:120px;
+}
+
+.createMusic1{
+  font-size:12px;
+  position:absolute;
+  left:50px;
+  margin-top:120px;
+}
+
+.save1{
+  width:35px;
+  height:35px;
+  border:1px solid rgb(233, 219, 219);
+  position:absolute;
+  left:5px;
+  margin-top:140px;
+}
+
+.saveStarPhoto{
+  width:20px;
+  height:20px;
+  margin-top:5px;
+}
+
+.musicAblum{
+  font-size:12px;
+  position:absolute;
+  left:50px;
+  margin-top:140px;
+}
+
+.bottomPlay{
+  border:1px solid rgb(224, 209, 209);
+  height:30px;
+  margin-top:250px;
+}
+
+.musicCd{
+  width:26px;
+  height:25px;
+  border:1px solid gray;
+  margin-left:5px;
+  margin-top:2px;
+  border-radius:13px;
+}
+
+.cd{
+  width:26px;
+  height:25px;
+  border-radius:13px;
+}
+
+.musicNam{
+  position:absolute;
+  left:50px;
+  margin-top:-27px;
+  font-size:12px;
+}
+
+.music-prog{
+  width: 550rpx;
+  height: 10rpx;
+  color: #0099ff;
+  background-color: #999;
+  position:absolute;
+  left:40px;
+  margin-top:-8px;
+}
+
+.play{
+  width:20px;
+  height:20px;
+  position:absolute;
+  margin-top:-25px;
+  left:275px;
+}
+
+.musicList{
+  width:20px;
+  height:20px;
+  position:absolute;
+  margin-top:-25px;
+  left:300px;
+}
+
+.people{
+  width:80px;
+  height:80px;
+  background-color:red;
+  margin-left:10px;
+  margin-top:10px;
+  font-size:12px;
+  line-height:80px;
+}
+
+.musicNa{
+  font-size:14px;
+  position:absolute;
+  margin-top:-80px;
+  left:120px;
+}
+
+.musicNa1{
+  font-size:14px;
+  position:absolute;
+  margin-top:-50px;
+  left:120px;
+}
+
+.musicNa2{
+  font-size:14px;
+  position:absolute;
+  margin-top:-20px;
+  left:120px;
+}
+
+.newMusic{
+  width:80px;
+  height:80px;
+  background-color:rgb(100, 226, 100);
+  margin-left:10px;
+  margin-top:20px;
+  line-height:80px;
+  font-size:12px;
+}
+
+.popularSale{
+  width:80px;
+  height:80px;
+  background-color:yellow;
+  margin-left:10px;
+  margin-top:20px;
+  line-height:80px;
+  font-size:12px;
+}
+
+.bottomPlay1{
+  margin-top:120px;
+  border:1px solid rgb(224, 209, 209);
+  height:30px;
+}
