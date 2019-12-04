@@ -1,0 +1,15 @@
+<!--pages/top/top.wxml-->
+<view class="bd">本地音乐</view>
+<view class="top">
+  <view class="topword">单曲</view>
+  <view class="topword1">歌手</view>
+  <view class="topword2">专辑</view>
+  <view class="topword3">文件夹</view>
+</view>
+<view class="one">
+  1
+</view>
+<view class="right">
+  歌曲名\n
+  作者-歌曲名
+</view>

@@ -1,0 +1,28 @@
+<!--pages/my/my.wxml-->
+<view class="top">评论(0)</view>
+<view class="name">
+  <image class="bt" src="../imag/img.jpg"></image>
+  <view class="n1">歌手:</view>
+  <view class="n1">歌曲名:</view>
+</view>
+<view class="pl">
+  <view  class="titletop">
+    <text class="titletopword"> 精彩评论</text>
+  </view>
+  <view class="yimg">
+    <image style="width:50px; height:50px; border-radius: 50%; overflow:hidden;" src="../imag/img.jpg"></image>
+  </view>
+  <view class="plname">
+    <text>网名：\n时间</text>
+    <view class="good">
+        👍200
+    </view>
+  </view>
+  <view class="plnr">
+    内容
+  </view>
+  <view class="last">
+    28条回复>
+  </view>
+</view>
+ 

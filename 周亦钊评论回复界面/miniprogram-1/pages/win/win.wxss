@@ -1,0 +1,64 @@
+/* pages/win/win.wxss */
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.yimg{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.plname{
+
+  width: 300px;
+  height: 50px;
+  margin-top:-50px;
+  margin-left: 70px; 
+}
+.good{
+
+width: 50px;
+height: 50px;
+margin-left: 225px;
+margin-top: -40px;
+}
+.plnr{
+
+  width: 300px;
+  height: 100px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  border: 2px solid rgb(180, 179, 179);
+}
+.last{
+  width: 100px;
+  height: 50px;
+
+  margin-left: 70px;
+}
+.low{
+  width: 100%;
+  height: 10px;
+  border-bottom: 5px solid rgb(180, 179, 179);
+  font-weight: bolder;
+}
+.atop{
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.xian{
+  width: 300px;
+  height: 50px;
+  margin-left: 70px;
+  margin-top: -25px;
+  border-left: 2px solid rgb(180, 179, 179);
+}
+.pl{
+  color: blue;
+}

@@ -1,0 +1,46 @@
+<!--index.wxml-->
+  <view class="page__bd">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          
+          <input type="text" style="border: 1px solid #d0d0d0;" class="weui-search-bar__input" placeholder="                         搜索歌曲、歌手" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}">
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+      </view>
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+  </view>
+  <view class="pai">
+    <view bindtap="clickNum" class="people">
+      <text class="main1">人气榜</text> 
+    </view>
+    <view class="rightword">
+      <text>1.歌曲名称 -作者\n
+      2.歌曲名称 -作者\n
+      3.歌曲名称 -作者\n</text>
+    </view>
+  </view>
+  <view class="pai">
+    <view  bindtap="clickTo" class="people1">
+      <text class="main1">新歌榜</text> 
+    </view>
+    <view class="rightword">
+      <text>1.歌曲名称 -作者\n          
+      2.歌曲名称 -作者\n
+  3.歌曲名称 -作者\n</text>
+    </view>
+  </view>
+  <view class="pai"> 
+    <view bindtap="clickGo" class="people2">
+      <text class="main1">畅销榜</text>  
+    </view>
+    <view class="rightword">
+      <text>1.歌曲名称 -作者\n
+      2.歌曲名称  -作者\n
+      3.歌曲名称 -作者\n</text>
+    </view>
+  </view>
+  

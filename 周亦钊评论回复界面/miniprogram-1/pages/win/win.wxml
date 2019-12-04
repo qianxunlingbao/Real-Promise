@@ -1,0 +1,42 @@
+<!--pages/win/win.wxml-->
+<view class="top">回复(0)</view>
+<view class="yimg">
+    <image style="width:50px; height:50px; border-radius: 50%; overflow:hidden;" src="../imag/img.jpg"></image>
+  </view>
+  <view class="plname">
+    <text>网名：\n时间</text>
+    <view class="good">
+        👍200
+    </view>
+  </view>
+  <view class="plnr">
+    内容
+  </view>
+  <view class="last">
+    28条回复>
+  </view>
+  <view class="low">
+  </view>
+  <view class="all">
+    <view class="atop">
+      全部回复
+    </view>
+  </view>
+  <view class="yimg">
+    <image style="width:50px; height:50px; border-radius: 50%; overflow:hidden;" src="../imag/img.jpg"></image>
+  </view>
+  <view class="plname">
+    <text>网名：\n时间</text>
+    <view class="good">
+        👍200
+    </view>
+  </view>
+  <view class="plnr">
+    内容
+  </view>
+  <view class="last">
+    28条回复>
+  </view>
+  <view class="xian">
+    <text class="bl">@评论者：</text>详细内容
+  </view>
