@@ -43,6 +43,40 @@
   margin-left: 20px;
   margin-top: 20px;
 }
-.right{
-  
+.mname{
+  margin-top: -50px;
+  margin-left: 60px;
+}
+.pname{
+  margin-left: 60px;
+}
+.begin{
+  margin-top: -35px;
+  margin-left: 250px;
+}
+.dian{
+  margin-top: -35px;
+  margin-left: 300px;
+}
+
+.one2{
+  color: red;
+  font-size: 50rpx;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.mname2{
+  margin-top: -40px;
+  margin-left: 60px;
+}
+.pname2{
+  margin-left: 60px;
+}
+.begin2{
+  margin-top: -25px;
+  margin-left: 250px;
+}
+.dian2{
+  margin-top: -25px;
+  margin-left: 300px;
 }
