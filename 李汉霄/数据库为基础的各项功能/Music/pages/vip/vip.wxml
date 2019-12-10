@@ -1,0 +1,11 @@
+<!--pages/vip/vip.wxml-->
+<view class="container">
+  <view>会员特权<image src="../../images/huiyuanzhuanxiang.png" style="width:30px;height:25px;"></image></view>
+  <view style="margin-top:20px;">1.会员专享歌曲</view>
+  <view>2.极品音质</view>
+  <view>3.更多下载</view>
+</view>
+<button bindtap="choice1" class="{{name1}}" style="margin-top:20px;width:120px">15/月</button>
+<button bindtap="choice2" class="{{name2}}" style="margin-top:5px;width:120px">36/季</button>
+<button bindtap="choice3" class="{{name3}}" style="margin-top:5px;width:120px">120/年</button>
+<button bindtap="backIndex" style="margin-top:30px;width:240px;background-color:red;color:white">开通会员享受更多特权</button>

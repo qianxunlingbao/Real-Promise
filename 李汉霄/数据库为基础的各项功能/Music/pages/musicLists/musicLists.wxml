@@ -1,0 +1,11 @@
+<!--pages/musicLists/musicLists.wxml-->
+<view wx:for="{{list}}">
+  <view style="text-align:center;margin-top:20px;">
+    <view bindtap="listMessage" id="{{index}}">
+      {{item}}
+    </view>
+    <button bindtap="deleteList" id="{{index}}">删除歌单</button>
+  </view>
+</view>
+<button bindtap="addList" style="margin-top:30px;">添加歌单</button>
+<button bindtap="backIndex" style="margin-top:30px;">返回个人页</button>

@@ -1,0 +1,9 @@
+<!--pages/choiceUser/choiceUser.wxml-->
+<view style="text-align:center">点击按钮选择用户：</view>
+<view wx:for="{{list}}">
+  <view style="margin-top:30px">
+    <button id="{{index}}" bindtap="choice">{{item.user_id}}</button>
+    <button bindtap="deleteUser" id="{{index}}" style="margin-top:5px;">删除用户</button>
+  </view>
+</view>
+<button bindtap="addUser" style="margin-top:30px">添加用户</button>

@@ -1,0 +1,4 @@
+/* pages/choiceUser/choiceUser.wxss */
+.user{
+  background-color:blue
+}

@@ -1,0 +1,5 @@
+<!--pages/addList/addList.wxml-->
+<form bindsubmit="showList" style="text-align:center;">
+  <input type="text" placeholder="要创建的歌单名称" name="add"></input>
+  <button form-type="submit">创建</button>
+</form>

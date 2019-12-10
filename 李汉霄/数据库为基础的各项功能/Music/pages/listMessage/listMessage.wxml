@@ -1,0 +1,30 @@
+<!--pages/listMessage/listMessage.wxml-->
+<view style="text-align:center">
+  <view style="margin-top:20px;">
+    歌单名称：{{name}}
+  </view>
+  <view style="margin-top:20px;">
+    歌曲数量：{{count}}
+  </view>
+  <view wx:for="{{arr}}" style="margin-top:20px;">
+    <view>
+      <view bindtap="listToMusic" id="{{index}}">
+        {{item}}
+      </view>
+      <button bindtap="deleteMusic" id="{{index}}">删除歌曲</button>
+    </view>
+  </view>
+  <view style="margin-top:20px;">
+    <form bindsubmit="addMusic">
+      <input type="text" placeholder="输入歌曲名称添加歌曲" name="musicName" value="{{value}}"></input>
+      <button form-type="submit">添加歌曲</button>
+    </form>
+  </view>
+  <view style="color:red;">
+    {{error}}
+  </view>
+  <view>
+    {{error2}}
+  </view>
+  <button bindtap="backList" style="margin-top:20px;">返回歌单页</button>
+</view>

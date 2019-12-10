@@ -1,0 +1,51 @@
+<!--pages/sql/sql.wxml-->
+musicSQL
+<view wx:for="{{list}}">
+  <view>
+    歌曲ID:{{item.music_id}}
+    歌曲名称:{{item.music_name}}
+    歌曲作者:{{item.music_author}}
+  </view>
+</view>
+userSQL
+<view wx:for="{{list2}}">
+  <view>
+    ID：{{item.user_id}}
+    等级：{{item.user_level}}
+    是否会员：{{item.user_ifvip}}
+    性别：{{item.user_sex}}
+    生日：{{item.user_birthday}}
+    地区：{{item.user_area}}
+    学校：{{item.user_school}}
+    工作：{{item.user_work}}
+    个性签名：{{item.user_word}}
+    个人简介：{{item.user_message}}
+  </view>
+</view>
+listSQL
+<view wx:for="{{list3}}">
+  <view>
+    歌单ID：{{item.list_id}}
+    歌单名称：{{item.list_name}}
+    歌曲数量：{{item.list_count}}
+    第一首歌曲ID：{{item.list_music1}}
+    第二首歌曲ID：{{item.list_music2}}
+    第三首歌曲ID：{{item.list_music3}}
+    歌单所属用户ID：{{item.user_id}}
+  </view>
+</view>
+searchHistorySQL
+<view wx:for="{{list4}}">
+  <view>
+    历史记录ID：{{item.history_id}}
+    历史记录名称:{{item.history_name}}
+    历史记录所属用户ID：{{item.user_id}}
+  </view>
+</view>
+choiceUserSQL
+<view wx:for="{{list5}}">
+  <view>
+    用户ID：{{item.user_id}}
+    是否选中:{{item.ifchoice}}
+  </view>
+</view>

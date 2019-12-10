@@ -1,0 +1,5 @@
+/* pages/vip/vip.wxss */
+.choice{
+  background-color:red;
+  color:white;
+}

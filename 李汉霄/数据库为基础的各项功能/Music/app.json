@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/addList/addList",
+    "pages/changeMessage/changeMessage",
+    "pages/choiceUser/choiceUser",
+    "pages/error/error",
+    "pages/hotword/hotword",
+    "pages/level/level",
+    "pages/listMessage/listMessage",
+    "pages/message/message",
+    "pages/music/music",
+    "pages/musicLists/musicLists",
+    "pages/search/search",
+    "pages/sql/sql",
+    "pages/vip/vip",
+    "pages/vipmusic/vipmusic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "Search"
+      },
+      {
+        "pagePath": "pages/sql/sql",
+        "text": "SQL"
+      }
+    ]
+  }
+}
