@@ -1,0 +1,42 @@
+<!--index.wxml-->
+
+<view style="overflow:hidden" bindtap="a">
+  <view class="songTextListr" style="overflow:hidden">
+    <view class="songTextListContainer" style="transform: translateY({{updistance}}rpx);">
+      <view wx:for="{{songTextList}}" class="{{activeIndex===index?'active':''}}">
+        {{item.text}}
+      </view>
+    </view>
+  </view>
+</view>
+<view class="collectandcheer">
+  <image src="{{isFavorite=='false'?'https://i03piccdn.sogoucdn.com/8d37690ce32dd5d9':'https://i02piccdn.sogoucdn.com/b75a22fff8766d5b'}}" class='collect' bindtap='collect'></image>
+  <button open-type="share" ></button>
+  <image bindtap="" src="http://img4.imgtn.bdimg.com/it/u=2944990628,3747569022&fm=26&gp=0.jpg"></image>
+<image wx:if='{{switchloop==1}}' src="{{'https://i02piccdn.sogoucdn.com/d543a79745a7d9b5'}}" class='collect' bindtap='musicChoose'></image>
+<image wx:elif='{{switchloop==2}}' src="{{'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3485746563,3236211993&fm=26&gp=0.jpg'}}" class='collect' bindtap='musicChoose'></image>
+<image wx:elif='{{switchloop==3}}' src="{{'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=672752069,3646467705&fm=26&gp=0.jpg'}}" class='collect' bindtap='musicChoose'></image>
+<image src="{{'http://img.58cdn.com.cn/ds/ershou/hangqingImg/3-150520115045.jpg'}}" bindtap="comment" ></image>
+<view class="wrap">
+  <view bindtap="showModal">
+    <image src="{{value}}"></image>
+    <!--<icon class="arrow"></icon>-->
+  </view>
+  <!-- modal  -->
+  <view class="modal modal-bottom-dialog" hidden="{{hideFlag}}">
+    <view class="modal-cancel" bindtap="hideModal"></view>
+    <view class="bottom-dialog-body bottom-positon" animation="{{animationData}}">
+      <!--  -->
+      <view class='Mselect'>
+        <view wx:for="{{optionList}}" wx:key="unique" data-value='{{item}}' bindtap='getOption'>
+          {{item}}
+        </view>
+      </view>
+      <view></view>
+    </view>
+  </view>
+</view>
+</view>
+<view class="container">
+<backgroundAudio  id = 'backgroundAudioManger' bind:switchPause='switchPause' bind:switchPlay='switchPlay' title='{{name}}' percent='{{percent}}' bind:changeSlider='changeSlider' bind:change='change' bind:switchpre='switchpre' bind:switchnext='switchnext' bind:switchloop='switchloop' play='{{play}}' pause='{{pause}}'></backgroundAudio>
+</view>

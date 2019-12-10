@@ -1,0 +1,120 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+#backgroundAudioManger{
+  width: 100%;
+
+  height: 120rpx;
+}
+.songTextListr{
+  width: 100%;
+  height: 10%;
+background-size:cover;
+background-image: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2092734177,601963171&fm=26&gp=0.jpg');
+}
+.songTextListContainer{
+  height: 985rpx;
+  text-align: center;
+  transition: 0.1s
+}
+.songTextListContainer view{
+
+  line-height: 70rpx;
+text-overflow: ellipsis;
+  
+}
+.songTextListContainer view.active{
+  color: rgba(204, 0, 255, 0.589);
+}
+.b1{
+  position:fixed;width:100%;height:89.9%;top:0px;background-image: url('https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2092734177,601963171&fm=26&gp=0.jpg');
+overflow: hidden;
+z-index: 1;
+background-size:cover; }
+
+.imgpicture{
+margin: 33% auto;
+
+  width: 67.5%;
+  
+  border-radius: 50%;
+  background-size:cover;
+  background-image: url('https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=962701679,2984368798&fm=15&gp=0.jpg')
+}
+.container_content {
+  height: 100%;
+  width: 100%;
+  margin-top:40%;
+  text-align: center;
+}
+.collectandcheer{
+  height:100rpx;
+}
+.collectandcheer image{
+  width: 16%;
+  background-size:cover;
+height:100rpx;
+float: left;
+}
+.collectandcheer button{
+  width: 16%;
+  float: left;
+background-size:cover;
+height:100rpx;
+    background-image: url('https://i02piccdn.sogoucdn.com/294a340b7eb9e061')
+}
+/* pages/hide/hide.wxss */
+.arrow{
+  display:inline-block;
+  border:6px solid transparent;
+  border-top-color:#000;
+  margin-left:8px;
+  position:relative;
+  top:6rpx;
+}
+/* ---------------------------- */
+/*模态框*/
+.modal{position:fixed; top:0; right:0; bottom:0; left:0; z-index:1000;}
+.modal-cancel{position:absolute; z-index:2000; top:0; right:0; bottom: 0; left:0; background:rgba(0,0,0,0.3);}
+.bottom-dialog-body{width:100%; position:absolute; z-index:3000; bottom:0; left:0;background:#dfdede;}
+/*动画前初始位置*/
+.bottom-positon{-webkit-transform:translateY(100%);transform:translateY(100%);}
+ 
+ 
+/* 底部弹出框 */
+.bottom-positon{
+  text-align: center;
+}
+.Mselect{
+  margin-bottom: 20rpx;
+}
+.Mselect view{
+  padding: 26rpx 0;
+  background: #fff;
+}
+.Mselect view:not(:last-of-type){
+  border-bottom: 1px solid #dfdede;
+}
+.Mcancel{
+  background: #fff;
+  padding: 26rpx 0;
+}

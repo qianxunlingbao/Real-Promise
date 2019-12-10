@@ -1,0 +1,10 @@
+<view class="musicPlay">
+
+<image src='{{img}}' class="image" bindtap="toMusic"></image>
+<text class="musicTitle" bindtap="toMusic">{{title}}</text>
+<slider class='musicProgress' block-size='12' value="{{percent}}" bindchange="changeSlider"></slider>
+<image src="./previous.png" class="playicons4"  bindtap="switchpre"></image>
+<image src="./play.png" class="playicons1" bindtap="switchPause" hidden="{{play}}"></image>
+<image src="./pause.png" class="playicons2" hidden="{{pause}}" bindtap="switchPlay"></image>
+<image src="./next.png" class="playicons3"  bindtap="switchnext"></image>
+</view>

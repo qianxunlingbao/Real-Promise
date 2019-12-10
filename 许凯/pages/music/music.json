@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "backgroundAudio": "/components/backgroundAudio/backgroundAudio"
+  }
+}

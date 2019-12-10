@@ -1,0 +1,20 @@
+{
+  "usingComponents": {
+    "backgroundAudio": "/components/backgroundAudio/backgroundAudio"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/music/music",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio"]
+}
