@@ -40,5 +40,10 @@ Page({
     this.setData({
       num: num
     });
+  },
+  clickTo: function () {
+    wx.navigateTo({
+      url: '../name/name',
+    })
   }
 }) 

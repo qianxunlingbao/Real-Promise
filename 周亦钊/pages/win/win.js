@@ -50,7 +50,7 @@ Page({
   },
   clickTo: function () {
     wx.navigateTo({
-      url: '../win/win',
+      url: '../name/name',
     })
   }
 }) 

@@ -1,0 +1,25 @@
+<!--pages/xx/xx.wxml-->
+<view class="top">基本信息</view>
+    <view>
+        <image src="../imag/img.jpg" style="width:68px;height:68px;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+        <view class="personalInfo">
+            <text>用户名: {{userName}}</text>
+            <text>账号: {{userPhone}}</text>
+        </view>
+    </view>
+    <view class="lettle">
+      个人信息
+    </view>
+    <view class="nr">
+      <view class="dj">等级：lv7</view>
+      <view class="dj">性别：男</view>
+      <view class="dj">年龄：20</view>
+      <view class="dj">地区：河北 石家庄</view>
+      <view class="dj">大学：河北师范大学</view>
+      <view class="dj">等级：新浪</view>
+    </view>
+    <view class="jj">
+      个人简介
+    </view>
+    <view class="nr">简介内容</view>
+   

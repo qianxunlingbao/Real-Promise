@@ -5,7 +5,9 @@
     "pages/my/my",
     "pages/top/top",
     "pages/win/win",
-    "pages/name/name"
+    "pages/name/name",
+    "pages/xx/xx",
+    "pages/bb/bb"
   ],
   "window": {
     "backgroundTextStyle": "light",

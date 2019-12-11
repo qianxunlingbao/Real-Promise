@@ -1,3 +1,11 @@
+/* pages/xx/xx.wxss */
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
 /* pages/name/name.wxss */
 /* pages/personal/personal.wxss */
 /** 修改button默认的点击态样式类**/
@@ -67,4 +75,15 @@ page{
     -webkit-transform:rotate(45deg);
        -moz-transform:rotate(45deg);
             transform:rotate(45deg);
+}
+.lettle{
+  margin-top: 100px;
+}
+.nr{
+  margin-left: 50px;
+  margin-top: 15px;
+  color: grey;
+}
+.jj{
+  margin-top: 20px;
 }
