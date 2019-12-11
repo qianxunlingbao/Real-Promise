@@ -15,7 +15,8 @@
   <view class="plname">
     <text>网名：\n时间</text>
     <view class="good">
-        👍200
+        <text class="normal" bindtap="bindPlus"> 👍</text>  
+      <input type="number" bindchange="bindManual" value="{{num}}" />  
     </view>
   </view>
   <view class="plnr">

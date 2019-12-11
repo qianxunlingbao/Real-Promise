@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/my/my",
     "pages/top/top",
-    "pages/win/win"
+    "pages/win/win",
+    "pages/name/name"
   ],
   "window": {
     "backgroundTextStyle": "light",

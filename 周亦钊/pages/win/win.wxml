@@ -6,7 +6,8 @@
   <view class="plname">
     <text>网名：\n时间</text>
     <view class="good">
-        👍200
+      <text class="normal" bindtap="bindPlus"> 👍</text>  
+      <input type="number" bindchange="bindManual" value="{{num}}" />  
     </view>
   </view>
   <view class="plnr">
@@ -23,12 +24,13 @@
     </view>
   </view>
   <view class="yimg">
-    <image style="width:50px; height:50px; border-radius: 50%; overflow:hidden;" src="../imag/img.jpg"></image>
+    <image bindtap="clickTo" style="width:50px; height:50px; border-radius: 50%; overflow:hidden;" src="../imag/img.jpg"></image>
   </view>
   <view class="plname">
     <text>网名：\n时间</text>
-    <view class="good">
-        👍200
+     <view class="good">
+      <text class="normal" bindtap="bindPlus1 "> 👍</text>  
+      <input type="number" bindchange="bindManual1" value="{{num1}}" />  
     </view>
   </view>
   <view class="plnr">
