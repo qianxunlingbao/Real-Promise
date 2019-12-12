@@ -1,0 +1,25 @@
+<!--pages/level/level.wxml-->
+<view style="text-align:center;margin-top:30px">
+  <view>当前等级{{level}}</view>
+  <view style="margin-top:30px">
+    当前等级特权：
+  </view>
+  <view>
+    1.60G音乐云盘免费容量
+  </view>
+  <view>
+    2.黑名单上限100
+  </view>
+  <view style="margin-top:30px">
+    距离下一个等级：
+  </view>
+  <view>
+    听歌量：还需13首
+  </view>
+  <view>
+    登录天数：还需27天
+  </view>
+  <button bindtap="vip" style="margin-top:30px;background-color:red;color:white">
+    开通会员加速成长
+  </button>
+</view>

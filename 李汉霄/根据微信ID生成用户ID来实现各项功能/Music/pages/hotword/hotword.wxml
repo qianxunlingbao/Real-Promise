@@ -1,0 +1,11 @@
+<!--pages/hotword/hotword.wxml-->
+<view class="beijing" style="background:url(../../images/beijing2.jpeg);background-size: cover;height:605px;width:100%;background-color:blue;position:relative;">
+  <view wx:for="{{list}}">
+    <view>{{item}}</view>
+  </view>
+  <button bindtap="word1" style="position:absolute;top:530px;left:25px;background-color:transparent;border:1px solid black;width:40px;">1</button>
+  <button bindtap="word2" style="position:absolute;top:530px;left:95px;background-color:transparent;border:1px solid black;width:40px;">2</button>
+  <button bindtap="word3" style="position:absolute;top:530px;left:165px;background-color:transparent;border:1px solid black;width:40px;">3</button>
+  <button bindtap="word4" style="position:absolute;top:530px;left:235px;background-color:transparent;border:1px solid black;width:40px;">4</button>
+  <button bindtap="word5" style="position:absolute;top:530px;left:305px;background-color:transparent;border:1px solid black;width:40px;">5</button>
+</view>

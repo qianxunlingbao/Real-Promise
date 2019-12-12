@@ -1,0 +1,45 @@
+<!--pages/sql/sql.wxml-->
+musicSQL
+<view wx:for="{{list}}">
+  <view>
+    <view>歌曲ID:{{item.music_id}}</view>
+    <view>歌曲名称:{{item.music_name}}</view>
+    <view>歌曲作者:{{item.music_author}}</view>
+    <view>歌曲链接:{{item.music_value}}</view>
+  </view>
+</view>
+userSQL
+<view wx:for="{{list2}}">
+  <view>
+    <view>ID：{{item.user_id}}</view>
+    <view>等级：{{item.user_level}}</view>
+    <view>是否会员：{{item.user_ifvip}}</view>
+    <view>性别：{{item.user_sex}}</view>
+    <view>生日：{{item.user_birthday}}</view>
+    <view>地区：{{item.user_area}}</view>
+    <view>学校：{{item.user_school}}</view>
+    <view>工作：{{item.user_work}}</view>
+    <view>个性签名：{{item.user_word}}</view>
+    <view>个人简介：{{item.user_message}}</view>
+  </view>
+</view>
+listSQL
+<view wx:for="{{list3}}">
+  <view>
+    <view>歌单ID：{{item.list_id}}</view>
+    <view>歌单名称：{{item.list_name}}</view>
+    <view>歌曲数量：{{item.list_count}}</view>
+    <view>第一首歌曲ID：{{item.list_music1}}</view>
+    <view>第二首歌曲ID：{{item.list_music2}}</view>
+    <view>第三首歌曲ID：{{item.list_music3}}</view>
+    <view>歌单所属用户ID：{{item.user_id}}</view>
+  </view>
+</view>
+searchHistorySQL
+<view wx:for="{{list4}}">
+  <view>
+    <view>历史记录ID：{{item.history_id}}</view>
+    <view>历史记录名称:{{item.history_name}}</view>
+    <view>历史记录所属用户ID：{{item.user_id}}</view>
+  </view>
+</view>

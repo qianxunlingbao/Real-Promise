@@ -1,0 +1,3 @@
+<!--pages/error/error.wxml-->
+<view>您搜索的歌曲未找到TAT</view>
+<view>或您尚未开通会员，无法听到会员专享歌曲</view>
