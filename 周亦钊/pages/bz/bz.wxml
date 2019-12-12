@@ -1,0 +1,5 @@
+<!--pages/bz/bz.wxml-->
+<image src="../imag/logo.JPG"></image>
+<text>
+  打造一款集音乐欣赏，评论，下载，收藏于一体的音乐排行欣赏分享评论交流APP。
+</text>

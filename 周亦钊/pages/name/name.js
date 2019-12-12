@@ -8,5 +8,10 @@ Page({
     wx.navigateTo({
       url: '../bb/bb',
     })
+  },
+  clickGo: function () {
+    wx.navigateTo({
+      url: '../pf/pf',
+    })
   }
 }) 

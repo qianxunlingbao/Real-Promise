@@ -7,7 +7,10 @@
     "pages/win/win",
     "pages/name/name",
     "pages/xx/xx",
-    "pages/bb/bb"
+    "pages/bb/bb",
+    "pages/pf/pf",
+    "pages/bz/bz",
+    "pages/xs/xs"
   ],
   "window": {
     "backgroundTextStyle": "light",

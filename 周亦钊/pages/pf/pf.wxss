@@ -1,0 +1,18 @@
+
+/* pages/test/test.wxss */
+
+image{
+
+  height: 60rpx;
+
+  width: 60rpx;
+
+  display: inline-block
+
+}
+.pj{
+  width: 300px;
+  height: 200px;
+  border-width: 3px;
+  border-color: black;
+}

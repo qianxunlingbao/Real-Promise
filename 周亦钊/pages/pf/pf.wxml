@@ -1,0 +1,36 @@
+
+<!--pages/test/test.wxml-->
+<view style='margin-top:60px;'>界面评分</view>
+
+<block wx:for="{{one_2}}" wx:key="index">
+
+<image catchtap='in_xin' id='{{index+1}}' data-in='use_sc2' src='../imag/star.jpg'></image>
+
+</block>
+
+<block wx:for="{{two_2}}" wx:key="index">
+
+<image catchtap='in_xin' id='{{index+1}}' data-in='use_sc' src='../imag/star.jpg'></image>
+
+</block>
+
+<view>{{one_2}}星</view>
+
+
+<view style='margin-top:60px;'>体验评分</view>
+
+<block wx:for="{{one_2}}" wx:key="index">
+
+<image catchtap='in_xin' id='{{index+1}}' data-in='use_sc2' src='../imag/star.jpg'></image>
+
+</block>
+
+<block wx:for="{{two_2}}" wx:key="index">
+
+<image catchtap='in_xin' id='{{index+1}}' data-in='use_sc' src='../imag/star.jpg'></image>
+
+</block>
+
+<view>{{one_2}}星</view>
+  <input class="pj" placeholder="请在此处填写评价">
+  </input>

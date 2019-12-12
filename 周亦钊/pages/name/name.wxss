@@ -26,6 +26,7 @@ page{
 .personalList{
     background-color: #fff;
     padding:0rpx 20rpx;
+    margin-top: 50px;
 }
 .personalList view{
     display: block;

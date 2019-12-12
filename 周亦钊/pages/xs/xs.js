@@ -1,4 +1,4 @@
-// pages/bb/bb.js
+// pages/xs/xs.js
 Page({
 
   /**
@@ -62,20 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  clickTo: function () {
-    wx.navigateTo({
-      url: '../pf/pf',
-    })
-  },
-  clickGo: function () {
-    wx.navigateTo({
-      url: '../bz/bz',
-    })
-  },
-  click: function () {
-    wx.navigateTo({
-      url: '../xs/xs',
-    })
   }
 })

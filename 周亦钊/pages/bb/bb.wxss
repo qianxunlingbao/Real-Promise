@@ -32,7 +32,6 @@ page{
 .personalList{
     background-color: #fff;
     padding:0rpx 20rpx;
-    margin-top: 100px;
 }
 .personalList view{
     display: block;
@@ -88,6 +87,7 @@ page{
 .personalList1{
     background-color: #fff;
     padding:0rpx 20rpx;
+    margin-top: 100px;
 }
 .personalList1 view{
     display: block;
