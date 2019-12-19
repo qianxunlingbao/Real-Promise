@@ -1,0 +1,11 @@
+<!--pages/create/create.wxml-->
+<view class="container1">
+  <view>
+   <view wx:for="{{demo}}" >
+    <image class="img" src="https://y.gtimg.cn/music/photo_new/T002R90x90M0000037Yq3H3RznaX.jpg?max_age=2592000"></image>
+    <navigator url='/pages/music/music' open-type='navigate'>
+      <text class="neirong">{{item.music_id}}-----{{item.music_name}}  ☺{{item.music_author}}</text>
+    </navigator>
+  </view>
+  </view>
+</view>

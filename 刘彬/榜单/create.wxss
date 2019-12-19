@@ -1,0 +1,23 @@
+/* pages/create/create.wxss */
+page{
+  background-image: url('http://img.mp.itc.cn/upload/20170628/22745573ed924520b3e68addf090362e_th.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container1{
+  /*background-color: greenyellow;*/
+}
+
+.img{
+  width:150rpx;
+  height:150rpx;
+}
+
+.neirong{
+  font-style: oblique;
+  font-weight: 700;
+  color: blue;
+  text-align: center;
+  /*line-height: 200rpx;*/
+
+}
