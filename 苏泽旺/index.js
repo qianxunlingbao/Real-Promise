@@ -43,4 +43,4 @@ Page({
     that.setData({ currentTab: e.detail.current });
 
   },
-})
+}) 
