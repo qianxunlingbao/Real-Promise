@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "backgroundAudio": "/component/backgroundAudio/backgroundAudio",
+    "mp-actionSheet": "../../component/actionsheet/actionsheet"
+  }
+}

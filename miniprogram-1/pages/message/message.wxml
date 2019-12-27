@@ -1,0 +1,15 @@
+<!--pages/message/message.wxml-->
+<view class="container">
+  <view>个人资料</view>
+  <view style="margin-top:20px;">性别:{{sex}}</view>
+  <view>生日:{{birthday}}</view>
+  <view>地区:{{area}}</view>
+  <view>学校:{{school}}</view>
+  <view>工作:{{work}}</view>
+  <view>个性签名:{{selfword}}</view>
+  <view>个人简介:{{selfmessage}}</view>
+  <button bindtap="changeMessage" style="margin-top:30px;">
+    修改个人资料
+    <image src="../../image/xiugaiziliao.png" style="width:20px;height:20px;"></image>
+  </button>
+</view>

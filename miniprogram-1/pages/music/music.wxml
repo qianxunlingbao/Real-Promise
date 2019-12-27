@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="songTextListContainer">
+<view style="overflow:hidden" bindtap="a">
+  <view class="songTextListr" style="background-image: {{backcolor}}">
+    <view  style="transform: translateY({{updistance}}rpx);">
+      <view wx:for="{{songTextList}}" class="{{activeIndex===index?'active':'notactive'}}">
+        {{item.text}}
+      </view>
+    </view>
+  </view>
+</view>
+</view>
+<image src="{{isFavorite == false?'../../image/normal.png':'../../image/love.png'}}" class='collect1' bindtap='collect'></image>
+  <image wx:if='{{switchloop==1}}' src="{{'../../image/common.png'}}" class='collect2' bindtap='musicChoose'></image>
+  <image wx:elif='{{switchloop==2}}' src="{{'../../image/onecircle.png'}}" class='collect2' bindtap='musicChoose'></image>
+  <image wx:elif='{{switchloop==3}}' src="{{'../../image/randomcirclr.png'}}" class='collect2' bindtap='musicChoose'></image>
+  <image src="{{'../../image/three.png'}}" bindtap="comment" class="collect3" ></image>
+
+<view class="bottomPlay" >
+<backgroundAudio  id = 'innerAudio' bind:switchPause='switchPause' bind:switchPlay='switchPlay' title='{{name}}' percent='{{percent}}' bind:changeSlider='changeSlider' bind:toMusic='toMusic' play='{{play}}' pause='{{pause}}' bind:switchpre='switchpre' bind:switchnext='switchnext'></backgroundAudio> </view>
+ <mp-actionSheet bindactiontap="btnClick" show="{{showActionsheet}}" actions="{{groups}}" title="更换播放背景颜色">
+</mp-actionSheet>
+
+
+
+
+
+
+
+
+

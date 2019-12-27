@@ -1,0 +1,25 @@
+
+<view id="container">
+<view class="sum">已选择{{sum}}项</view>
+<view class="alter" bindtap="choose">{{alter}}</view>
+</view>
+<checkbox-group bindchange="checkboxChange">
+     <view wx:for = "{{musiclist}}"  wx:key="{{list_name}}">
+  <view class="everyone" >
+                <image src="{{'http://www.badwoman.com.cn:8802/musicimage/'+ (index+1) + '.JPG'}}" class="onelist"></image>
+                <text class="name">{{item.list_name}}</text>
+                <text class="count">{{item.list_count}}首</text>
+                <checkbox class="checkbox"  checked="{{all}}" value="{{item.list_id}}" id="{{item.list_id}}"></checkbox>
+  </view>
+</view>
+</checkbox-group>
+           
+ <popup2 id='popup' title='未选择歌单' content='学会了吗' btn_no='取消' bind:error="_error" ></popup2>
+ <confirm id='confirm' title='确认删除歌单吗？' content='学会了吗' btn_no='取消' btn_ok='确定'bind:error="error"bind:success="success"></confirm>
+ 
+<view class="dibu" bindtap="delete">
+ <image src="../../image/rubbish.png" class="rubbish"></image>
+</view>
+
+
+

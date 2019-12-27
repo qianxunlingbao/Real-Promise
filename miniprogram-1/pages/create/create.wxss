@@ -1,0 +1,21 @@
+/* pages/create/create.wxss */
+page{
+ 
+}
+.container1{
+  /*background-color: greenyellow;*/
+}
+
+.img{
+  width:150rpx;
+  height:150rpx;
+}
+
+.neirong{
+  font-style: oblique;
+  font-weight: 700;
+  color: blue;
+  text-align: center;
+  /*line-height: 200rpx;*/
+
+}

@@ -1,0 +1,10 @@
+<!--pages/create/create.wxml-->
+<view class="container1">
+  <view>
+   <view wx:for="{{demo}}" >
+    <navigator url="{{'/pages/music/music?name=' + item.music_name}}" open-type='navigate'>
+      <text class="neirong">{{item.music_id}}-----{{item.music_name}}  ☺{{item.music_author}}</text>
+    </navigator>
+  </view>
+  </view>
+</view>

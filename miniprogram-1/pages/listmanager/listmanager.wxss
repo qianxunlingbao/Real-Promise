@@ -1,0 +1,72 @@
+/* pages/listmanager/listmanager.wxss */
+.wider{
+  width: 100%;
+  position: relative;
+}
+#container{
+  width: 100%;
+  position: relative;
+  height: 50rpx;
+}
+.sum{
+  width:40%;
+  position: absolute;
+  left: 20rpx
+}
+.alter{
+  width: 20%;
+  position: absolute;
+  top: 0rpx;
+  right: 20rpx;
+}
+.everyone{
+  width:100%;
+  height: 80rpx;
+  position: relative;
+  align-content: center;
+  margin-top: 40rpx;
+  right: 0
+}
+.name{
+  position: absolute;
+  font-size: 35rpx;
+  left: 140rpx
+}
+.title{
+ width:100%;
+ height: 80rpx;
+ margin-bottom: 10rpx;
+ position: relative
+}
+.count{
+  position: absolute;
+  font-size: 25rpx;
+  left: 140rpx;
+  top:40rpx;
+}
+.onelist{
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  left: 30rpx;
+  border-radius: 10rpx
+  }
+  .checkbox{
+    position: absolute;
+    right: 120rpx;
+    width: 40rpx;
+    height: 40rpx;
+  }
+  .dibu{
+    width: 100%;
+    border-top: solid 1rpx;
+    height:100rpx;
+    bottom: 0;
+    position: absolute
+  }
+  .rubbish{
+    width: 50rpx;
+    height: 50rpx;
+    margin-left: 48%;
+    margin-top: 10rpx;
+  }

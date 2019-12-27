@@ -1,0 +1,43 @@
+{
+  "usingComponents": {
+    "backgroundAudio": "/component/backgroundAudio/backgroundAudio",
+    "popup": "/component/popup/popup",
+    "popup2": "/component/popup2/popup2",
+    "confirm":"/component/confirm/confirm"
+
+  },
+  "pages": [
+    
+    "pages/index/index",
+    "pages/search/search",
+    "pages/music/music",
+    "pages/listmanager/listmanager",
+    "pages/listdetail/listdetail",
+    "pages/addsong/addsong",
+    "pages/hotword/hotword",
+    "pages/message/message",
+    "pages/create/create"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio"],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "个人信息"
+      }
+    ]
+  }
+}

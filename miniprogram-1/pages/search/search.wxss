@@ -1,0 +1,31 @@
+/* pages/search/search.wxss */
+.container{
+  width:100%;
+  padding:20rpx;
+}
+.input-sousuo{
+  border:5rpx solid red;
+  width:500rpx;
+  float:left;
+  height:72rpx;
+  margin-left:23rpx;
+  margin-top:20px;
+  color:white;
+  font-weight:bold;
+}
+.img-sousuo{
+  width:50rpx;
+  height:50rpx;
+}
+.img-chahao{
+  width:50rpx;
+  height:50rpx;
+  margin-left:-25rpx;
+}
+
+.clear{
+  float:left;
+  width:50rpx;
+  height:50rpx;
+  background-color:transparent;
+}

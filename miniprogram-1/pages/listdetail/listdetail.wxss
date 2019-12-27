@@ -1,0 +1,56 @@
+/* pages/listdetail/listdetail.wxss */
+.total{
+  width: 100%;
+  height: 120rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.half{
+  width: 80%;
+  height: 120rpx;
+  float: left
+}
+.one{
+  position: absolute;
+  top:40%;
+  width: 10%;
+  height: 10%;
+  left: 5%;
+  color: grey
+}
+.two{
+  position: absolute;
+  left: 10%;
+  width: 20%;
+  height: 40%;
+  top:17%;
+  font-size: 35rpx
+}
+.three{
+  position: absolute;
+  left: 10%;
+  width: 20%;
+  height: 40%;
+  top: 65%;
+  font-size: 30rpx;
+  color: grey
+}
+.pit{
+  width: 30rpx;
+  height:30rpx;
+  position: absolute;
+  right: 0;
+  top: 40%
+}
+.rightasider{
+  width: 10%;
+  height: 120rpx;
+  float: right
+}
+.bottomPlay{
+  border:1px solid rgb(224, 209, 209);
+  width: 100%;
+  height:50px;
+  position: fixed;
+  bottom: 20rpx
+}

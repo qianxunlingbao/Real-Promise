@@ -1,0 +1,12 @@
+<view class="wx-popup" hidden="{{flag}}">
+  <view class='popup-container'>
+    <view class="wx-popup-title">{{title}}</view>
+    <view class="wx-popup-con">
+      <input placeholder="请输入歌单标题" class="inputname" bindinput="changeinput" value="{{value}}"></input>
+    </view>
+    <view class="wx-popup-btn">
+      <text class="btn-no" bindtap='_error'>{{btn_no}}</text>
+      <text class="btn-ok" bindtap='_success'>{{btn_ok}}</text>
+    </view>
+  </view>
+</view>
